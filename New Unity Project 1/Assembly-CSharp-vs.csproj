@@ -49,6 +49,11 @@
      <Compile Include="Assets\CarModel\Assets\Script\CarController.cs" />
      <Compile Include="Assets\CarModel\Assets\Script\CarSound.cs" />
      <Compile Include="Assets\CarModel\Assets\Script\Wheel.cs" />
+     <Compile Include="Assets\FlagManager\FlagManager.cs" />
+     <Compile Include="Assets\FlagManager\Sample\EscapeGame.cs" />
+     <Compile Include="Assets\FlagManager\Sample\SampleGUI.cs" />
+     <Compile Include="Assets\FlagManager\Sample\SampleMoveObject.cs" />
+     <Compile Include="Assets\Script\flag.cs" />
      <Compile Include="Assets\player.cs" />
      <None Include="Assets\CarModel\Assets\license.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
