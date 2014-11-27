@@ -53,7 +53,7 @@
      <Compile Include="Assets\FlagManager\Sample\EscapeGame.cs" />
      <Compile Include="Assets\FlagManager\Sample\SampleGUI.cs" />
      <Compile Include="Assets\FlagManager\Sample\SampleMoveObject.cs" />
-     <Compile Include="Assets\Script\flag.cs" />
+     <Compile Include="Assets\Script\atari.cs" />
      <Compile Include="Assets\player.cs" />
      <None Include="Assets\CarModel\Assets\license.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
@@ -63,8 +63,6 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{8A372BAF-BA95-0346-D5FC-D82F8865A500}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
       <Project>{BE051A15-E501-BE1B-C75D-2D2D11F97DF9}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
