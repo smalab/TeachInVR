@@ -1112,7 +1112,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 421279230}
   - 65: {fileID: 421279231}
-  - 114: {fileID: 421279232}
   m_Layer: 9
   m_Name: CarCollider
   m_TagString: Untagged
@@ -1144,17 +1143,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &421279232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 421279229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbdb2cba7053d264d90618f324b71da2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &428834422
 GameObject:
   m_ObjectHideFlags: 0
@@ -1336,6 +1324,7 @@ GameObject:
   - 114: {fileID: 581419643}
   - 82: {fileID: 581419645}
   - 114: {fileID: 581419644}
+  - 65: {fileID: 581419647}
   - 114: {fileID: 581419646}
   m_Layer: 9
   m_Name: Car
@@ -1350,8 +1339,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 581419640}
-  m_LocalRotation: {x: 0, y: .996000111, z: 0, w: .0893519297}
-  m_LocalPosition: {x: 487.336792, y: 74.189003, z: 1238.40454}
+  m_LocalRotation: {x: 0, y: .99991709, z: 0, w: .0128776347}
+  m_LocalPosition: {x: 487.628052, y: 74.189003, z: 1238.43359}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2019581526}
@@ -1374,7 +1363,7 @@ Rigidbody:
   m_Mass: 2000
   m_Drag: 0
   m_AngularDrag: 0
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -1480,6 +1469,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 934979d37199c224aadd6a8121a9d576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &581419647
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 581419640}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &597825329
 GameObject:
   m_ObjectHideFlags: 0
@@ -2531,7 +2532,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 896152467}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13edb772733ebd940ad7873dea10b47e, type: 3}
+  m_Script: {fileID: 11500000, guid: 934979d37199c224aadd6a8121a9d576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &903235915
@@ -4773,7 +4774,7 @@ GameObject:
   - 65: {fileID: 2115000998}
   - 23: {fileID: 2115000997}
   m_Layer: 10
-  m_Name: Cube
+  m_Name: Cube2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

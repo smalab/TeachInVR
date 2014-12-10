@@ -1,0 +1,20 @@
+diff a/New Unity Project 1/Assets/Script/atari.cs b/New Unity Project 1/Assets/Script/atari.cs	(rejected hunks)
+@@ -0,0 +1,17 @@
++﻿using UnityEngine;
++using System.Collections;
++
++public class atari : MonoBehaviour {
++
++	// Use this for initialization
++	void OnControllerColliderHit(ControllerColliderHit hit ){
++		var obj = hit.gameObject;	 
++		Debug.Log(obj.name); 
++		if (obj.name == "cube2"){ 
++			Debug.Log("hit");
++
++		}
++
++	}
++
++}
+\ No newline at end of file

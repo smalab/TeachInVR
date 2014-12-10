@@ -53,7 +53,7 @@
      <Compile Include="Assets\FlagManager\Sample\EscapeGame.cs" />
      <Compile Include="Assets\FlagManager\Sample\SampleGUI.cs" />
      <Compile Include="Assets\FlagManager\Sample\SampleMoveObject.cs" />
-     <Compile Include="Assets\Script\atari.cs" />
+     <Compile Include="Assets\Script\Atari.cs" />
      <Compile Include="Assets\player.cs" />
      <None Include="Assets\CarModel\Assets\license.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
