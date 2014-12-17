@@ -47,11 +47,28 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Standard Assets\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
+     <None Include="Assets\Plugins\GameDraw\Shaders\HighlightTextured.shader" />
      <None Include="Assets\CarModel\Assets\license.txt" />
+     <None Include="Assets\Plugins\GameDraw\Shaders\HiglightClip.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Plugins\GameDraw\Shaders\GridHighlight.shader" />
+     <None Include="Assets\Plugins\GameDraw\Shaders\HighlightEdge.shader" />
+     <None Include="Assets\Plugins\GameDraw\Shaders\PainterShader.shader" />
+     <None Include="Assets\Plugins\GameDraw\Shaders\WireFrame.shader" />
+     <None Include="Assets\Plugins\GameDraw\Shaders\HighlightPlus.shader" />
+     <None Include="Assets\Plugins\GameDraw\Shaders\Highlight.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="clipper_library">
+ <HintPath>D:/GitHub/TeachInVR/New Unity Project 1/Assets/Plugins/clipper_library.dll</HintPath>
+ </Reference>
+ <Reference Include="GameDraw">
+ <HintPath>D:/GitHub/TeachInVR/New Unity Project 1/Assets/Plugins/GameDraw.dll</HintPath>
+ </Reference>
+ <Reference Include="Poly2Tri">
+ <HintPath>D:/GitHub/TeachInVR/New Unity Project 1/Assets/Plugins/Poly2Tri.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
