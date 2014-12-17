@@ -53,7 +53,8 @@
      <Compile Include="Assets\FlagManager\Sample\EscapeGame.cs" />
      <Compile Include="Assets\FlagManager\Sample\SampleGUI.cs" />
      <Compile Include="Assets\FlagManager\Sample\SampleMoveObject.cs" />
-     <Compile Include="Assets\Script\Atari.cs" />
+     <Compile Include="Assets\Script\atari.cs" />
+     <Compile Include="Assets\ari.cs" />
      <Compile Include="Assets\player.cs" />
      <None Include="Assets\Plugins\GameDraw\Shaders\HighlightTextured.shader" />
      <None Include="Assets\CarModel\Assets\license.txt" />
