@@ -56,6 +56,7 @@
      <Compile Include="Assets\Script\atari.cs" />
      <Compile Include="Assets\ari.cs" />
      <Compile Include="Assets\player.cs" />
+     <Compile Include="Assets\text_atari.cs" />
      <None Include="Assets\Plugins\GameDraw\Shaders\HighlightTextured.shader" />
      <None Include="Assets\CarModel\Assets\license.txt" />
      <None Include="Assets\Plugins\GameDraw\Shaders\HiglightClip.shader" />
