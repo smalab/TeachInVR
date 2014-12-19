@@ -6,14 +6,18 @@ using UnityEngine.UI;
 
 public class text_atari : MonoBehaviour {
 	public GameObject Text;
-	private GameObject place_text;
-		place_text = GameObject.Find("Text");
+	private GameObject place_text =  GameObject.Find("Text");
+
 	public void OnCollisionStay(Collision collision){
-		if(hit.Gameobject=="Cube1"){
-		place_text.GetComponent<Text>().Text="sapporo"
-	}
+		//if (collision.gameObject == "Cube1") {
+				//place_text.GetComponent<Text> ().text = "sapporo";
+		//}
+
+			GameObject gui = GameObject.Find("GUI Text");
+			if(gui != null) gui.guiText.text = "Hit !";
 
 	}
+
 	// Use this for initialization
 	void Start () {
 	
