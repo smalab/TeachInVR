@@ -19,23 +19,23 @@ public class text_atari : MonoBehaviour {
 	}
 
 
-	static public T FindInParents<T>(GameObject go) where T : Component
+	static public T FindInParents<T> (GameObject go) where T : Component
 	{
-		if (go == null)return null;
-		var comp = go.Getcomponent<T>();
-
-		if (comp != null)
-			return comp;
-
-		Transform t = go.transform.parent;
-		while (t != null && comp == null)
+		if (go == null) return null;
+		object comp = go.GetComponent<T>();
+		
+		if (comp == null)
 		{
-			comp = t.gameobject.Getcomponent<T>();
-			t = t.parent;
+			Transform t = go.transform.parent;
+			
+			while (t != null && comp == null)
+			{
+				comp = t.gameObject.GetComponent<T>();
+				t = t.parent;
+			}
 		}
-		return comp;
+		return (T)comp;
 	}
-
 
 	// Use this for initialization
 	void Start () {
