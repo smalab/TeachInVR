@@ -1886,6 +1886,7 @@ GameObject:
   - 82: {fileID: 581419645}
   - 114: {fileID: 581419644}
   - 114: {fileID: 581419646}
+  - 114: {fileID: 581419647}
   m_Layer: 0
   m_Name: Car
   m_TagString: Untagged
@@ -2024,11 +2025,23 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 581419640}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05b051badb371c145acb207a71658887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &581419647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 581419640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 934979d37199c224aadd6a8121a9d576, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flag0: 0
 --- !u!1 &597825329
 GameObject:
   m_ObjectHideFlags: 0
@@ -3436,6 +3449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 934979d37199c224aadd6a8121a9d576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  flag0: 0
 --- !u!43 &903194008
 Mesh:
   m_ObjectHideFlags: 0
@@ -3819,7 +3833,7 @@ MonoBehaviour:
   email: 
   maxObjectCount: 3
   objects:
-  - {fileID: 964961966}
+  - {fileID: 647852013}
   - {fileID: 2115000996}
   - {fileID: 0}
   controllers:
@@ -4038,8 +4052,8 @@ MonoBehaviour:
         endY: 0
         selectionRect: {fileID: 0}
       bindposes: []
-    referencedGO: {fileID: 964961966}
-    referencedFilter: {fileID: 964961968}
+    referencedGO: {fileID: 647852013}
+    referencedFilter: {fileID: 647852016}
     meshes:
     - {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
     selected: 0
@@ -4074,7 +4088,7 @@ MonoBehaviour:
       editSelectionNum: 0
       weldThreshold: 0
       subdivideSelection: 0
-    objectRenderer: {fileID: 964961967}
+    objectRenderer: {fileID: 647852014}
     projectionMask:
       serializedVersion: 2
       m_Bits: 0
@@ -8791,11 +8805,11 @@ GUIText:
   m_Alignment: 0
   m_PixelOffset: {x: 0, y: 0}
   m_LineSpacing: 1
-  m_TabSize: 4
-  m_Font: {fileID: 0}
+  m_TabSize: 100
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Material: {fileID: 0}
-  m_FontSize: 0
-  m_FontStyle: 0
+  m_FontSize: 100
+  m_FontStyle: 1
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -8808,7 +8822,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2041774222}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1598.9707, y: -182.93576, z: 608.382263}
+  m_LocalPosition: {x: 0, y: .100000001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

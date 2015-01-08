@@ -2,15 +2,25 @@
 using System.Collections;
 
 public class atari : MonoBehaviour {
-
-	// Use this for initialization
-	void OnControllerColliderHit(ControllerColliderHit hit){
-		var obj = hit.gameObject;	 
-		Debug.Log(obj.name); 
-		if (obj.name == "Cube1"){ 
-			Debug.Log("hit");
-
-		}
-
+	public int flag0=0;
+	private GUIStyle style;
+	void Start()
+	{
+		style = new GUIStyle();
+		style.normal.textColor = Color.red; 
+		style.fontSize = 30;
 	}
+	// Use this for initialization
+	void OnCollisionEnter(Collision collision){
+		if(collision.gameObject.name == "sapporo_yuka"){
+			Debug.Log("sapporo111");
+			flag0=1;
+		}
+	}
+	void OnGUI () {
+		if (flag0 == 1){
+		// ラベルを表示する
+		GUI.Label(new Rect(50,50,500,500), "sapporo");
+	}
+}
 }
