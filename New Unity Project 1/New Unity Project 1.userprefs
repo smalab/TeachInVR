@@ -1,8 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CarModel\Assets\Script\CarController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\atari.js">
     <Files>
-      <File FileName="Assets\CarModel\Assets\Script\CarController.cs" Line="18" Column="1" />
+      <File FileName="Assets\CarModel\Assets\Script\CarController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\atari.cs" Line="1" Column="1" />
+      <File FileName="Assets\atari.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
