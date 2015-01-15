@@ -54,6 +54,7 @@
      <Compile Include="Assets\FlagManager\Sample\SampleGUI.cs" />
      <Compile Include="Assets\FlagManager\Sample\SampleMoveObject.cs" />
      <Compile Include="Assets\Script\atari.cs" />
+     <Compile Include="Assets\Script\buttonclick.cs" />
      <Compile Include="Assets\ari.cs" />
      <Compile Include="Assets\player.cs" />
      <Compile Include="Assets\text_atari.cs" />

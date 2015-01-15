@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\FlagManager\FlagManager.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\atari.cs">
     <Files>
-      <File FileName="Assets\Script\atari.cs" Line="54" Column="98" />
-      <File FileName="Assets\FlagManager\FlagManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\atari.cs" Line="80" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
