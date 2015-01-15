@@ -57,7 +57,7 @@ public class atari : MonoBehaviour {
 			GUI.Label(new Rect(100,100,500,500), "日高山脈\n北海道の中央南部にある山脈\n長さは南北およそ150 km",style);	
 		}
 		if (flag0 == 6) {
-			GUI.Label(new Rect(100,100,500,500), "ishikari",style);	
+			GUI.Label(new Rect(100,100,500,500), "石狩山地\n北海道中央部にある山地\n石狩岳 (1,967m) を最高峰とする",style);	
 		}
 	}
 }
