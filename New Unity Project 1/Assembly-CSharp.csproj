@@ -49,6 +49,7 @@
      <Compile Include="Assets\CarModel\Assets\Script\CarController.cs" />
      <Compile Include="Assets\CarModel\Assets\Script\CarSound.cs" />
      <Compile Include="Assets\CarModel\Assets\Script\Wheel.cs" />
+     <Compile Include="Assets\Countdown.cs" />
      <Compile Include="Assets\FlagManager\FlagManager.cs" />
      <Compile Include="Assets\FlagManager\Sample\EscapeGame.cs" />
      <Compile Include="Assets\FlagManager\Sample\SampleGUI.cs" />
