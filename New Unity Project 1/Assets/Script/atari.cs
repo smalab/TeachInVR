@@ -9,7 +9,9 @@ public class atari : MonoBehaviour {
 	public bool	go;
 	public bool	hi;
 	public bool	isi;
+	static public int time0 = 0;
 	private GUIStyle style;
+	public GUIStyle buttonStyle;
 	void Start()
 	{
 		style = new GUIStyle();
@@ -72,7 +74,8 @@ public class atari : MonoBehaviour {
 						GUI.Label (new Rect (100, 100, 500, 500), "石狩山地\n北海道中央部にある山地\n石狩岳 (1,967m) を最高峰とする", style);	
 				}
 				if (sa && wa && to && go && hi && isi) {
-						if (GUI.Button (new Rect (100, 800, 300, 300), "aaa")) {
+			time0 = 1;
+						if (GUI.Button (new Rect (100, 800, 300, 100), "finish",buttonStyle)) {
 								Application.LoadLevel ("start");
 						}
 				}
