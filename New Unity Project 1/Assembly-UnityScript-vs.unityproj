@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Prefab\Camera Scripts\SmoothFollow.js" />
-     <Compile Include="Assets\atari.js" />
+     <Compile Include="Assets\not need\atari.js" />
      <None Include="Assets\Plugins\GameDraw\Shaders\HighlightTextured.shader" />
      <None Include="Assets\CarModel\Assets\license.txt" />
      <None Include="Assets\Plugins\GameDraw\Shaders\HiglightClip.shader" />

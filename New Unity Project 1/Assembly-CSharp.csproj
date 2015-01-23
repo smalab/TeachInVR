@@ -54,11 +54,12 @@
      <Compile Include="Assets\FlagManager\Sample\SampleGUI.cs" />
      <Compile Include="Assets\FlagManager\Sample\SampleMoveObject.cs" />
      <Compile Include="Assets\Script\Countdown.cs" />
+     <Compile Include="Assets\Script\Gamestart.cs" />
      <Compile Include="Assets\Script\atari.cs" />
      <Compile Include="Assets\Script\buttonclick.cs" />
-     <Compile Include="Assets\ari.cs" />
-     <Compile Include="Assets\player.cs" />
-     <Compile Include="Assets\text_atari.cs" />
+     <Compile Include="Assets\not need\ari.cs" />
+     <Compile Include="Assets\not need\player.cs" />
+     <Compile Include="Assets\not need\text_atari.cs" />
      <None Include="Assets\Plugins\GameDraw\Shaders\HighlightTextured.shader" />
      <None Include="Assets\CarModel\Assets\license.txt" />
      <None Include="Assets\Plugins\GameDraw\Shaders\HiglightClip.shader" />

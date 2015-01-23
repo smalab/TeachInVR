@@ -1,18 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class buttonclick : MonoBehaviour {
-
-public void Clickakasi(){
-		Application.LoadLevel("setumei");
-		}
+public class Gamestart : MonoBehaviour {
+	
+	public void Clicktest(){
+		Application.LoadLevel("game");
+	}
 	// Use this for initialization
 	void Start () {
-	
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+		
 	}
 }
