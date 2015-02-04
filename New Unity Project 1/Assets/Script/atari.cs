@@ -23,30 +23,38 @@ public class atari : MonoBehaviour {
 				if (collision.gameObject.name == "sapporo_yuka") {
 						Debug.Log ("sapporo111");
 						flag0 = 1;
+						time0 = 1;
 						sa = true;
 				}
 				if (collision.gameObject.name == "wakkanai_yuka") {
 						Debug.Log ("wakkanai111");
 						flag0 = 2;
+						time0 = 1;
 						wa = true;
 				}
 				if (collision.gameObject.name == "reset_yuka") {
 						flag0 = 0;
+						time0 = 0;
+			Debug.Log ("wahaha");
 				}
 				if (collision.gameObject.name == "tokachi") {
 						flag0 = 3;
+						time0 = 1;
 						to = true;
 				}
 				if (collision.gameObject.name == "goryou_yuka") {
 						flag0 = 4;
+						time0 = 1;
 						go = true;
 				}
 				if (collision.gameObject.name == "hidaka") {
 						flag0 = 5;
 						hi = true;
+						time0 = 1;
 				}	
 				if (collision.gameObject.name == "ishikari") {
 						flag0 = 6;
+						time0 = 1;
 						isi = true;
 				}
 		}

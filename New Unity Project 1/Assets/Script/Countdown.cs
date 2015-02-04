@@ -7,9 +7,13 @@ public class Countdown : MonoBehaviour
 	public float timer;
 	public bool paused = true;
 	public GUIStyle style1;
+	private GUIStyle style;
 	private void Start()
 	{
 		reset();
+		style = new GUIStyle();
+		style.normal.textColor = Color.red; 
+		style.fontSize = 50;
 	}
 	
 	private void reset()
@@ -19,14 +23,13 @@ public class Countdown : MonoBehaviour
 	
 	private void Update()
 	{
-				if (paused)
-						return;
-				timer -= Time.deltaTime;
-						// 何かの処理
+		if (atari.time0 == 0) {
+						timer -= Time.deltaTime;
+				}
 		if (atari.time0 == 1) {
-			Debug.Log ("sasuga");
-			paused = true;
-		}
+						Debug.Log ("sasuga");
+						paused = true;
+				} 
 		}
 	private void OnGUI()
 	{
@@ -38,6 +41,6 @@ public class Countdown : MonoBehaviour
 				// 何かの処理
 			}
 		}
-		GUILayout.Box(String.Format("{0:00}:{1:00}:{2:00}:{3:00}", Math.Floor(timer / 3600f), Math.Floor(timer / 60f), Math.Floor(timer % 60f), timer % 1 * 100), GUILayout.Width(800));
+		GUILayout.Label(String.Format("{0:00}:{1:00}:{2:00}:{3:00}", Math.Floor(timer / 3600f), Math.Floor(timer / 60f), Math.Floor(timer % 60f), timer % 1 * 100),style);
 		}
 }
