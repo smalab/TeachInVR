@@ -57,6 +57,7 @@
      <Compile Include="Assets\Script\Gamestart.cs" />
      <Compile Include="Assets\Script\atari.cs" />
      <Compile Include="Assets\Script\buttonclick.cs" />
+     <Compile Include="Assets\asuhi.cs" />
      <Compile Include="Assets\not need\ari.cs" />
      <Compile Include="Assets\not need\player.cs" />
      <Compile Include="Assets\not need\text_atari.cs" />

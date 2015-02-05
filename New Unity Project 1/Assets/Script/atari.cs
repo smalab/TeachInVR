@@ -10,6 +10,7 @@ public class atari : MonoBehaviour {
 	public bool	hi;
 	public bool	isi;
 	static public int time0 = 0;
+	static public int stop0 = 0;
 	private GUIStyle style;
 	public GUIStyle buttonStyle;
 	void Start()
@@ -83,6 +84,7 @@ public class atari : MonoBehaviour {
 				}
 				if (sa && wa && to && go && hi && isi) {
 			time0 = 1;
+			stop0 = 1;
 						if (GUI.Button (new Rect (100, 800, 300, 100), "finish",buttonStyle)) {
 								Application.LoadLevel ("start");
 						}

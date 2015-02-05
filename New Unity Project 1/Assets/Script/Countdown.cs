@@ -23,8 +23,12 @@ public class Countdown : MonoBehaviour
 	
 	private void Update()
 	{
-		if (atari.time0 == 0) {
-						timer -= Time.deltaTime;
+				if (atari.stop0 == 1) {
+			atari.time0 = 1;
+				} else {
+						if (atari.time0 == 0) {
+								timer -= Time.deltaTime;
+						}
 				}
 		if (atari.time0 == 1) {
 						Debug.Log ("sasuga");
