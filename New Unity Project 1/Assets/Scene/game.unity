@@ -1944,7 +1944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdb2270c1048a074180233af42b7d47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTime: 90
+  startTime: 30
   timer: 0
   paused: 0
   style1:
@@ -2532,12 +2532,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flag0: 0
-  sa: 0
-  wa: 0
+  sa: 1
+  wa: 1
   to: 0
-  go: 0
-  hi: 0
-  isi: 0
+  go: 1
+  hi: 1
+  isi: 1
   buttonStyle:
     m_Name: 
     m_Normal:
@@ -4918,7 +4918,7 @@ MonoBehaviour:
   email: 
   maxObjectCount: 3
   objects:
-  - {fileID: 296362979}
+  - {fileID: 1178818030}
   - {fileID: 0}
   - {fileID: 0}
   controllers:
@@ -4939,7 +4939,7 @@ MonoBehaviour:
       halfEdges: 
       selectedElements: 
       selectedVerticesIDs: 
-      selectionType: 3
+      selectionType: 0
       startX: 0
       startY: 0
       endX: 0
@@ -5197,8 +5197,8 @@ MonoBehaviour:
         endY: 0
         selectionRect: {fileID: 0}
       bindposes: []
-    referencedGO: {fileID: 296362979}
-    referencedFilter: {fileID: 296362982}
+    referencedGO: {fileID: 1178818030}
+    referencedFilter: {fileID: 1178818033}
     meshes:
     - {fileID: 4300006, guid: ce8d79c79d11b8f9d00076e98d76c639, type: 3}
     selected: 0
@@ -5233,7 +5233,7 @@ MonoBehaviour:
       editSelectionNum: 0
       weldThreshold: 0
       subdivideSelection: 0
-    objectRenderer: {fileID: 296362981}
+    objectRenderer: {fileID: 1178818032}
     projectionMask:
       serializedVersion: 2
       m_Bits: 0

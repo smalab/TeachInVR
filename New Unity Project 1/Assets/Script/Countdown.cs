@@ -6,6 +6,8 @@ public class Countdown : MonoBehaviour
 	public float startTime = 10.0f; // seconds
 	public float timer;
 	public bool paused = true;
+	private bool jikan = false;
+	public static float score = 0.0f;
 	public GUIStyle style1;
 	private GUIStyle style;
 	private void Start()
@@ -25,6 +27,14 @@ public class Countdown : MonoBehaviour
 	{
 				if (atari.stop0 == 1) {
 			atari.time0 = 1;
+			if(jikan == false){
+			if(timer >= 60){
+				score = 100;
+			}else{
+				score = timer + 40;
+					jikan = true;
+			}
+			}
 				} else {
 						if (atari.time0 == 0) {
 								timer -= Time.deltaTime;
