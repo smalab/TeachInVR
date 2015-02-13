@@ -91,18 +91,8 @@ public class atari : MonoBehaviour {
 			time0 = 1;
 			stop0 = 1;
 						if (GUI.Button (new Rect (100, 800, 300, 100), "finish",buttonStyle)) {
-								Application.LoadLevel ("start");
-						}
-			GUI.Label(new Rect(100, 460, 100, 100), "SCORE",style2);
-			GUILayout.BeginArea (new Rect (0,0,200,1200));
-			GUILayout.FlexibleSpace();
-			GUILayout.BeginHorizontal();
-			GUILayout.FlexibleSpace();
-			GUILayout.Label(String.Format("{0:00}",Countdown.score),style2);
-			GUILayout.FlexibleSpace();
-			GUILayout.EndHorizontal();
-			GUILayout.FlexibleSpace();
-			GUILayout.EndArea();
+								Application.LoadLevel ("end");
+			}
 				}
 		}
 }

@@ -54,9 +54,12 @@
      <Compile Include="Assets\FlagManager\Sample\SampleGUI.cs" />
      <Compile Include="Assets\FlagManager\Sample\SampleMoveObject.cs" />
      <Compile Include="Assets\Script\Countdown.cs" />
+     <Compile Include="Assets\Script\GameClear.cs" />
      <Compile Include="Assets\Script\Gamestart.cs" />
      <Compile Include="Assets\Script\atari.cs" />
+     <Compile Include="Assets\Script\audio.cs" />
      <Compile Include="Assets\Script\buttonclick.cs" />
+     <Compile Include="Assets\Script\score.cs" />
      <Compile Include="Assets\asuhi.cs" />
      <Compile Include="Assets\not need\ari.cs" />
      <Compile Include="Assets\not need\player.cs" />
