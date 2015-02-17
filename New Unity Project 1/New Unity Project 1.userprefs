@@ -1,11 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\atari.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\audio.cs">
     <Files>
-      <File FileName="Assets\Script\atari.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\Countdown.cs" Line="60" Column="2" />
-      <File FileName="Assets\Script\score.cs" Line="31" Column="2" />
-      <File FileName="Assets\Script\GameClear.cs" Line="21" Column="1" />
+      <File FileName="Assets\Script\audio.cs" Line="11" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

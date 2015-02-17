@@ -2,20 +2,32 @@
 using System.Collections;
 
 public class audio : MonoBehaviour {
-	public AudioClip se;
-	private bool iti;
+	public AudioClip audioClip;
+	public AudioClip audioClip1;
+	AudioSource audioSource;
+	private bool iti = true;
+	private bool itii = false;
 	// Use this for initialization
-	void Start () {
-	
+	void Start (){
+		audioSource = gameObject.GetComponent<AudioSource> ();
+		if (atari.stop0 == 1) {
+			audioSource.clip = audioClip;
+			audio.Stop();
+			itii = true;
+		}
+		if(atari.stop0 == 0){
+			audioSource.clip = audioClip1;
+		}
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	if (atari.stop0 == 1) {
-			if(iti = true){
-			audio.PlayOneShot(se);
-				iti=false;
-				}
-	}
+			if (iti == true) {
+				audioSource.Play ();
+				iti = false;
+			if(itii == true){
+				audioSource.Play ();
+			}
+}
 }
 }
