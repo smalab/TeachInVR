@@ -41,7 +41,6 @@ public class atari : MonoBehaviour {
 				if (collision.gameObject.name == "reset_yuka") {
 						flag0 = 0;
 						time0 = 0;
-			Debug.Log ("wahaha");
 				}
 				if (collision.gameObject.name == "tokachi") {
 						flag0 = 3;

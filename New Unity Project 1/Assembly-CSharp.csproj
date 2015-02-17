@@ -58,6 +58,7 @@
      <Compile Include="Assets\Script\Gamestart.cs" />
      <Compile Include="Assets\Script\atari.cs" />
      <Compile Include="Assets\Script\audio.cs" />
+     <Compile Include="Assets\Script\audio_camera.cs" />
      <Compile Include="Assets\Script\buttonclick.cs" />
      <Compile Include="Assets\Script\score.cs" />
      <Compile Include="Assets\asuhi.cs" />
