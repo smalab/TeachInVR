@@ -1,0 +1,37 @@
+Initialize engine version: 4.6.0b20 (a3ecf55f1347)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 980 (ID=0x13c0)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\GitHub\TeachInVR\New Unity Project 1\hokkaido_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\GitHub\TeachInVR\New Unity Project 1\hokkaido_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\GitHub\TeachInVR\New Unity Project 1\hokkaido_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\GitHub\TeachInVR\New Unity Project 1\hokkaido_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\GitHub\TeachInVR\New Unity Project 1\hokkaido_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\GitHub\TeachInVR\New Unity Project 1\hokkaido_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\GitHub\TeachInVR\New Unity Project 1\hokkaido_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\GitHub\TeachInVR\New Unity Project 1\hokkaido_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\GitHub\TeachInVR\New Unity Project 1\hokkaido_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\GitHub\TeachInVR\New Unity Project 1\hokkaido_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\GitHub\TeachInVR\New Unity Project 1\hokkaido_Data\Managed\clipper_library.dll (this message is harmless)
+Loading D:\GitHub\TeachInVR\New Unity Project 1\hokkaido_Data\Managed\clipper_library.dll into Unity Child Domain
+Platform assembly: D:\GitHub\TeachInVR\New Unity Project 1\hokkaido_Data\Managed\GameDraw.dll (this message is harmless)
+Loading D:\GitHub\TeachInVR\New Unity Project 1\hokkaido_Data\Managed\GameDraw.dll into Unity Child Domain
+Platform assembly: D:\GitHub\TeachInVR\New Unity Project 1\hokkaido_Data\Managed\Poly2Tri.dll (this message is harmless)
+Loading D:\GitHub\TeachInVR\New Unity Project 1\hokkaido_Data\Managed\Poly2Tri.dll into Unity Child Domain
+- Completed reload, in  0.274 seconds
+desktop: 2560x1440 30Hz; virtual: 2560x1440 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: D:\GitHub\TeachInVR\New Unity Project 1\hokkaido_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\GitHub\TeachInVR\New Unity Project 1\hokkaido_Data\Managed\System.dll (this message is harmless)
+Platform assembly: D:\GitHub\TeachInVR\New Unity Project 1\hokkaido_Data\Managed\System.Xml.dll (this message is harmless)
+UnloadTime: 7.354094 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 166.
+Total: 1.590292 ms (FindLiveObjects: 0.032911 ms CreateObjectMapping: 0.014903 ms MarkObjects: 0.246523 ms  DeleteObjects: 0.027943 ms)
+
