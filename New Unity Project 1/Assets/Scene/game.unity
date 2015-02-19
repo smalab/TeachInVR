@@ -1849,7 +1849,6 @@ GameObject:
   - 20: {fileID: 363328706}
   - 124: {fileID: 363328705}
   - 92: {fileID: 363328704}
-  - 81: {fileID: 363328703}
   - 114: {fileID: 363328702}
   - 114: {fileID: 363328708}
   m_Layer: 0
@@ -1875,13 +1874,6 @@ MonoBehaviour:
   height: 900
   heightDamping: 2
   rotationDamping: 3
---- !u!81 &363328703
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 363328701}
-  m_Enabled: 1
 --- !u!92 &363328704
 Behaviour:
   m_ObjectHideFlags: 0
@@ -2876,7 +2868,6 @@ GameObject:
   - 114: {fileID: 581419643}
   - 114: {fileID: 581419646}
   - 114: {fileID: 581419647}
-  - 81: {fileID: 581419648}
   - 82: {fileID: 581419645}
   - 114: {fileID: 581419649}
   m_Layer: 0
@@ -3021,12 +3012,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flag0: 0
-  sa: 1
-  wa: 1
+  sa: 0
+  wa: 0
   to: 0
-  go: 1
-  hi: 1
-  isi: 1
+  go: 0
+  hi: 0
+  isi: 0
   buttonStyle:
     m_Name: 
     m_Normal:
@@ -3086,13 +3077,6 @@ MonoBehaviour:
     m_FixedHeight: 0
     m_StretchWidth: 1
     m_StretchHeight: 0
---- !u!81 &581419648
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 581419640}
-  m_Enabled: 1
 --- !u!114 &581419649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5489,7 +5473,7 @@ MonoBehaviour:
   email: 
   maxObjectCount: 3
   objects:
-  - {fileID: 1119012061}
+  - {fileID: 883053091}
   - {fileID: 0}
   - {fileID: 0}
   controllers:
@@ -5684,8 +5668,8 @@ MonoBehaviour:
         endY: 0
         selectionRect: {fileID: 0}
       bindposes: []
-    referencedGO: {fileID: 1119012061}
-    referencedFilter: {fileID: 1119012064}
+    referencedGO: {fileID: 883053091}
+    referencedFilter: {fileID: 883053094}
     meshes:
     - {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
     selected: 0
@@ -5720,7 +5704,7 @@ MonoBehaviour:
       editSelectionNum: 0
       weldThreshold: 0
       subdivideSelection: 0
-    objectRenderer: {fileID: 1119012062}
+    objectRenderer: {fileID: 883053092}
     projectionMask:
       serializedVersion: 2
       m_Bits: 0
